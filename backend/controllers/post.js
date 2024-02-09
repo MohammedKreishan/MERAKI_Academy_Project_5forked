@@ -68,7 +68,7 @@ const getpostByuserId = (req, res) => {
 
 
 
-=======
+
  
 module.exports = { createNewPost , getpostByuserId};
  

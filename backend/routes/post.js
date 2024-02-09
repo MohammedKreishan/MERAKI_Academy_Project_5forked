@@ -6,7 +6,7 @@ const PostRouter = express.Router();
 const {createNewPost,getAllPosts,getPostById } = require('../controllers/post');
 
  
-const {createNewPost,getpostByuserId} = require('../controllers/post');
+// const {createNewPost,getpostByuserId} = require('../controllers/post');
  
 const {createNewPost,getAllPosts} = require('../controllers/post');
  

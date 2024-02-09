@@ -17,15 +17,14 @@ const PostRouter =require("./routes/post")
 
 
 const commentsRouter = require("./routes/comments");
-
+const likesRouter = require("./routes/likes")
 
 
 app.use("/users", userRouter);
 app.use("/roles", roleRouter);
-
 app.use("/post",PostRouter)
-
 app.use("/comments", commentsRouter);
+app.use("/likes", likesRouter)
 
 
 
