@@ -11,13 +11,13 @@ import WelcomePage from "../welcome page/welcomepage";
 function Home() {
   return (
     <>
-      {/* <Routes>
+      <Routes>
         // <Route path="/users/register" element={<Register />} />
         // <Route path="/users/login" element={<LoginPage />} />
         // <Route path="/" element={<WelcomePage/>} />
 
     
-      </Routes> */}
+      </Routes>
       {/* <WelcomePage/>  */}
 
       {/* <Navbar/> */}
