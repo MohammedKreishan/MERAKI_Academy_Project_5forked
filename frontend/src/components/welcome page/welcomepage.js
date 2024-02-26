@@ -142,54 +142,48 @@ function AboutSection() {
   const featuredRef = useRef(null);
 
   return (
-    <div className="containers">
-      <Container>
-        <Row className="gx-lg-5 align-items-center mb-5">
-          <Col
-            lg={6}
-            style={{ zIndex: 10, top: "60%", left: "30%" }}
-            className="mb-5 mb-lg-0"
-          >
-            <img
-              src="https://friendkit.cssninja.io/assets/img/illustrations/characters/friends.svg"
-              alt=""
-            />
-          </Col>
-          <Col lg={6} className="mb-5 mb-lg-0 position-relative">
-            {" "}
-            <h1
-              className="my-5 display-2 fw-bold ls-tight"
-              style={{ color: "hsl(218, 81%, 95%)" }}
-            >
-              The best offer <br />
-              <span style={{ color: "hsl(218, 81%, 95%)" }}>
-                for your business
-              </span>
-            </h1>
-            <p
-              className="mb-4 opacity-70"
-              style={{ color: "hsl(218, 81%, 85%)" }}
-            >
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Temporibus, expedita iusto veniam atque, magni tempora mollitia
-              dolorum consequatur nulla, neque debitis eos reprehenderit quasi
-              ab ipsum nisi dolorem modi. Quos?
-            </p>
-            <Button
-              href="#landing-start"
-              variant="light"
-              className="waves-effect waves-light"
-              onClick={() => {}}
-            >
-              Get Started
-            </Button>{" "}
-            <Button variant="light" className="waves-effect waves-light ">
-              Take a Tour
-            </Button>{" "}
-          </Col>
-        </Row>
-      </Container>
-    </div>
+<div className="containers">
+  <Container>
+    <Row className="gx-lg-5 align-items-center mb-5">
+      <Col
+        lg={6}
+        style={{ zIndex: 10, top: "60%", left: "30%" }}
+        className="mb-5 mb-lg-0"
+      >
+        <img
+          src="https://friendkit.cssninja.io/assets/img/illustrations/characters/friends.svg"
+          alt="Illustration of friends"
+        />
+      </Col>
+      <Col lg={6} className="mb-5 mb-lg-0 position-relative">
+        <h1
+          className="my-5 display-3 fw-bold ls-tight"
+          style={{ color: "hsl(218, 81%, 95%)" }}
+        >
+          Connect and Share with TALAQI
+        </h1>
+        <p
+          className="mb-4 opacity-70"
+          style={{ color: "hsl(218, 81%, 85%)" }}
+        >
+          Join TALAQI, your go-to social media platform for connecting with friends, sharing moments, and discovering new experiences together.
+        </p>
+        <Button
+          href="#landing-start"
+          variant="light"
+          className="waves-effect waves-light"
+          onClick={() => {}}
+        >
+          Get Started
+        </Button>{" "}
+        <Button variant="light" className="waves-effect waves-light ">
+          Take a Tour
+        </Button>{" "}
+      </Col>
+    </Row>
+  </Container>
+</div>
+
   );
 }
 
